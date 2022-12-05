@@ -50,23 +50,11 @@ $('.scroll-top a').click(function () {
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
 		if (windowwidth > 768){
 			var responsiveImage = [//PC用の動画と画像
-				{ src: './img/main01.jpg',//動画が再生されなかった場合の代替画像
-                 video:{
-                     src: [//mp4で動画が再生されない時のことを考えて複数の形式の動画を設定
-                         './video/movie.mp4',
-                         './video/movie.webm',
-                         './video/movie.ogv'
-                     ],
-                     loop: false,//動画を繰り返さない
-                     mute: true,//動画の音を鳴らさない
-                 }
-				},
 				{src: './img/main02.jpg'},
 				{src: './img/main03.jpg'}
 			];
 		} else {
             var responsiveImage = [//タブレットサイズ（768px）以下用の画像
-				{ src: './img/main_sp01.jpg' },
 				{ src: './img/main_sp02.jpg' },
 				{ src: './img/main_sp03.jpg' }
 			];
