@@ -54,9 +54,9 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
 				{src: './img/main03.jpg'}
 			];
 		} else {
-            var responsiveImage = [//タブレットサイズ（768px）以下用の画像
-				{ src: './img/main_02sp.jpg' },
-				{ src: './img/main_03sp.jpg' }
+            var responsiveImage = [//タブレットサイズ（768px）以下用の画像 ※現在は一旦PCと同じ
+				{ src: './img/main02.jpg' },
+				{ src: './img/main03.jpg' }
 			];
 }
 
