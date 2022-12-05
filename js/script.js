@@ -55,8 +55,8 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
 			];
 		} else {
             var responsiveImage = [//タブレットサイズ（768px）以下用の画像
-				{ src: './img/main_sp02.jpg' },
-				{ src: './img/main_sp03.jpg' }
+				{ src: './img/main_02sp.jpg' },
+				{ src: './img/main_03sp.jpg' }
 			];
 }
 
